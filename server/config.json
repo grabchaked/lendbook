@@ -1,0 +1,8 @@
+{
+  "secret": "VZampQEKNwT9NAWSQQprrvdTS8FcZmax6xqNct2B",
+
+  "adminUsername": "lendbook_admin",
+  "adminEmail": "contact.lendbook@gmail.com",
+
+  "freeBookLimit": 3
+}

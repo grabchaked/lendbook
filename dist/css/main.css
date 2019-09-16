@@ -1,0 +1,128 @@
+* :not(.modal-backdrop) {
+  animation: fade 0.3s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container, .container-fluid{
+  margin-top: 50px;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+h1 {
+  font-family: 'Righteous', serif;
+  padding: 5px;
+  text-shadow: 2px 2px lightgrey;
+}
+
+h2, h3, h4, h5, h6, p {
+  font-family: 'Comfortaa', serif;
+}
+
+h5#intro{
+  font-weight: bold;
+  padding: 10px;
+  width: 60%;
+  color: white;
+  border-radius: 50px;
+  background-color: #262525;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: 0 auto;
+}
+
+h6{font-size: 18px;}
+
+.logo {
+    width: auto;
+    height: 180px;
+    margin-top: -10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.card {
+  box-shadow: 2px 2px 3px 3px #ccc;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  box-shadow:0 10px 15px rgba(0,0,0,.3);
+}
+
+.card-text {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.price {
+  margin-bottom: 5px;
+
+  text-align: left;
+}
+
+.badge {
+  font-size: 16px;
+}
+
+
+@media only screen and (max-width: 850px) {
+  .col-lg-3, .col-md-4, .col-sm-6 {
+    margin-top: 10px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px
+  }
+  h5#intro{
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    color: white;
+    border-radius: 50px;
+    background-color: #262525;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 0 auto;
+  }
+  h6 {
+    font-size: 16px;
+  }
+}
